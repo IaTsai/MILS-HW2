@@ -1,0 +1,18 @@
+{
+  "data_dir": "/mnt/sdb1/ia313553058/Mils2/unified_multitask/data",
+  "save_dir": "./sequential_quick_results",
+  "batch_size": 16,
+  "num_workers": 4,
+  "pretrained": true,
+  "stage1_epochs": 30,
+  "stage2_epochs": 30,
+  "stage3_epochs": 10,
+  "learning_rate": 0.001,
+  "stage2_lr_decay": 0.1,
+  "stage3_lr_decay": 0.01,
+  "use_ewc": false,
+  "ewc_importance": 10000,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1.0,
+  "label_smoothing": 0.1
+}

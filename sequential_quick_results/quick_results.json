@@ -1,0 +1,13 @@
+{
+  "final_metrics": {
+    "classification_accuracy": 0.1,
+    "segmentation_miou": 0.2982138496934136,
+    "detection_map": 0.470520139678023
+  },
+  "forgetting_rates": {
+    "segmentation": 6.8081719708082575,
+    "detection": 0,
+    "classification": 0.0
+  },
+  "timestamp": "2025-06-03T22:06:24.402380"
+}

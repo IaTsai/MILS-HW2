@@ -1,0 +1,67 @@
+{
+  "evaluation_timestamp": "2025-06-03T17:28:52.166326",
+  "task_performance": {
+    "classification": {
+      "top1_accuracy": 0.15,
+      "correct_predictions": 9,
+      "total_predictions": 60,
+      "accuracy_class_0": 0.0,
+      "accuracy_class_1": 0.0,
+      "accuracy_class_2": 0.0,
+      "accuracy_class_3": 0.5,
+      "accuracy_class_4": 0.0,
+      "accuracy_class_5": 0.0,
+      "accuracy_class_6": 0.0,
+      "accuracy_class_7": 0.6666666666666666,
+      "accuracy_class_8": 0.3333333333333333,
+      "accuracy_class_9": 0.0
+    }
+  },
+  "efficiency_metrics": {
+    "model_size": {
+      "total_parameters": 6079886,
+      "trainable_parameters": 6079886,
+      "non_trainable_parameters": 0,
+      "model_size_mb": 23.24700164794922,
+      "parameter_size_mb": 23.19292449951172,
+      "buffer_size_mb": 0.0540771484375
+    },
+    "inference_time": {
+      "mean_inference_time_ms": 1.502530574798584,
+      "std_inference_time_ms": 0.014335530648611953,
+      "min_inference_time_ms": 1.4843940734863281,
+      "max_inference_time_ms": 1.5516281127929688,
+      "median_inference_time_ms": 1.4983415603637695,
+      "batch_size": 1,
+      "input_size": [
+        3,
+        512,
+        512
+      ],
+      "num_runs": 100
+    },
+    "memory_usage": {
+      "initial_memory_mb": 31.43896484375,
+      "peak_memory_mb": 69.064453125,
+      "current_memory_mb": 57.1416015625,
+      "inference_memory_mb": 37.62548828125,
+      "batch_size": 1,
+      "input_size": [
+        3,
+        512,
+        512
+      ]
+    }
+  },
+  "compliance_check": {
+    "parameter_limit_8m": true,
+    "inference_speed_150ms": true,
+    "classification_accuracy_threshold": false,
+    "all_requirements_met": false
+  },
+  "architecture_analysis": {
+    "design_choice": "independent_task_heads",
+    "joint_training_used": true,
+    "ewc_used": false
+  }
+}
