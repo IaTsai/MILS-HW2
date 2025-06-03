@@ -110,7 +110,7 @@ python scripts/eval.py --model-path path/to/checkpoint.pth --task all
 
 ## Authors
 
-[Your Name]
+Ian Tsai
 
 ## License
 
